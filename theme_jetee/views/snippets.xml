@@ -1,0 +1,1094 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+  <data>
+
+    <template id="snippets" inherit_id="website.snippets" name="QJ Theme snippets">
+   <xpath expr="//div[@id='snippet_structure']" position="inside">
+    <div>
+        <div class="oe_snippet_thumbnail">
+            <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+            <span class="oe_snippet_thumbnail_title">Parallax One</span>
+        </div>
+
+        <section class="oe_snippet_body parallax-section">
+<div class="parallax" data-scroll-background-offset="-1002" data-scroll-background-ratio="0.3" id="parallax-one" style="background-image: url('/theme_jetee/static/src/images/1.jpg'); background-attachment: scroll; background-position: 0px -12.3px;">
+        <div class="parallax-text-container-1">
+          <div class="parallax-text-item">
+            <div class="container">
+              <div class="row">
+              
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="counter-item">
+                    <i class="fa fa-check"></i>
+                    <div class="timer" data-speed="5000" data-to="200" id="item2">200</div>
+                    <h5>Projects completed</h5>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="counter-item">
+                    <i class="fa fa-home"></i>
+                    <div class="timer" data-speed="5000" data-to="8" id="item3">8</div>
+                    <h5> Different Countries</h5>
+                  </div>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                  <div class="counter-item">
+                    <i class="fa fa-male"></i>
+                    <div class="timer" data-speed="5000" data-to="100" id="item4">100</div>
+                    <h5>Happy clients</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        </section>
+     
+    </div>
+      
+    </xpath>
+               <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title">Featured Projects</span>
+                    </div>
+
+          <section class="oe_snippet_body">
+       <div class="s_title mt48" style="height: 100px; overflow: hidden;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 mb92">
+              <h1 class="text-center">Featured Projects</h1>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projects mt50 mb48">
+        <div class="container">
+          <div class="row">
+             <div class="col-sm-4">
+              <div class="project-thumb">
+              <div class="image">
+                <img alt="project 1" class="img-responsive" src="/theme_jetee/static/src/images/marriott.jpg"></img>
+                </div>
+                <div class="mask">
+                  <div class="main">
+                    <h5>Project Name</h5>
+                  </div>
+                   <div class="project-info">
+                 
+                <div class="row">
+                      <div class="col-xs-6">
+                        <ul class="list-unstyled">
+                     
+                          <li><i class="fa fa-building"></i>Project Type</li>
+                          <li><i class="fa fa-calendar"></i>Project Year</li>
+                        </ul>
+                      </div>
+                      <div class="col-xs-6">
+                        <ul class="list-unstyled">
+                          <li><i class="fa fa-male"></i> Client</li>
+                          <li><i class="fa fa-home"></i> Country</li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn btn-primary " href="/page/project1">READ MORE</a>
+                  </div>
+                </div>
+             </div>
+             </div>
+                 <div class="col-sm-4">
+              <div class="project-thumb">
+              <div class="image">
+                <img alt="project 1" class="img-responsive" src="/theme_jetee/static/src/images/project-royel.jpg"></img>
+                </div>
+                <div class="mask">
+                  <div class="main">
+                    <h5>Project Name</h5>
+                  </div>
+                   <div class="project-info">
+                
+                <div class="row">
+                      <div class="col-xs-6">
+                        <ul class="list-unstyled">
+                       
+                          <li><i class="fa fa-building"></i>Project Type</li>
+                          <li><i class="fa fa-calendar"></i>Project Year</li>
+                        </ul>
+                      </div>
+                      <div class="col-xs-6">
+                        <ul class="list-unstyled">
+                          <li><i class="fa fa-male"></i> Client</li>
+                          <li><i class="fa fa-home"></i> Country</li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn btn-primary" href="/page/project2">READ MORE</a>
+                  </div>
+                </div>
+             </div>
+             </div>
+              <div class="col-sm-4">
+              <div class="project-thumb">
+              <div class="image">
+                <img alt="project 1" class="img-responsive" src="/theme_jetee/static/src/images/hsbc.jpg"></img>
+                </div>
+                <div class="mask">
+                  <div class="main">
+                    <h5>Project Name</h5>
+                  </div>
+                   <div class="project-info">
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <ul class="list-unstyled">
+                         
+                          <li><i class="fa fa-building"></i>Project Type</li>
+                          <li><i class="fa fa-calendar"></i>Project Year</li>
+                        </ul>
+                      </div>
+                      <div class="col-xs-6">
+                        <ul class="list-unstyled">
+                          <li><i class="fa fa-male"></i> Client</li>
+                          <li><i class="fa fa-home"></i> Country</li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn btn-primary " href="/page/project3">READ MORE</a>
+                  </div>
+                </div>
+             </div>
+             </div>
+           
+            
+              </div>
+              <div style="margin-top:25px;" class="text-center link-container">
+          <a class="btn btn-primary " href="/page/projects">More</a>
+        </div>
+            </div>
+      </div>
+    
+
+                </section>
+</div>
+            </xpath>
+               <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title"> Projects List</span>
+                    </div>
+
+          <section class="oe_snippet_body">
+       <div class="s_title mt48" style="height: 100px; overflow: hidden;">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 mb92">
+              <h1 class="text-center">Featured Projects</h1>
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="projects mt50 mb48">
+        <div class="container">
+          <div class="row">
+             <div class="col-sm-4">
+              <div class="project-thumb">
+              <div class="image">
+                <img alt="project 1" class="img-responsive" src="/theme_jetee/static/src/images/project-royel.jpg"></img>
+                </div>
+                <div class="mask">
+                  <div class="main">
+                    <h5>Project Name</h5>
+                  </div>
+                   <div class="project-info">
+                 
+                <div class="row">
+                      <div class="col-xs-6">
+                        <ul class="list-unstyled">
+                         
+                          <li><i class="fa fa-building"></i>Project Type</li>
+                          <li><i class="fa fa-calendar"></i>Project Year</li>
+                        </ul>
+                      </div>
+                      <div class="col-xs-6">
+                        <ul class="list-unstyled">
+                          <li><i class="fa fa-male"></i> Client</li>
+                          <li><i class="fa fa-home"></i> Country</li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn btn-primary " href="/page/project1">READ MORE</a>
+                  </div>
+                </div>
+             </div>
+             </div>
+                 <div class="col-sm-4">
+              <div class="project-thumb">
+              <div class="image">
+                <img alt="project 1" class="img-responsive" src="/theme_jetee/static/src/images/marriott.jpg"></img>
+                </div>
+                <div class="mask">
+                  <div class="main">
+                    <h5>Project Name</h5>
+                  </div>
+                   <div class="project-info">
+                
+                <div class="row">
+                      <div class="col-xs-6">
+                        <ul class="list-unstyled">
+                        
+                          <li><i class="fa fa-building"></i>Project Type</li>
+                          <li><i class="fa fa-calendar"></i>Project Year</li>
+                        </ul>
+                      </div>
+                      <div class="col-xs-6">
+                        <ul class="list-unstyled">
+                          <li><i class="fa fa-male"></i> Client</li>
+                          <li><i class="fa fa-home"></i> Country</li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn btn-primary " href="/page/project2">READ MORE</a>
+                  </div>
+                </div>
+             </div>
+             </div>
+              <div class="col-sm-4">
+              <div class="project-thumb">
+              <div class="image">
+                <img alt="project 1" class="img-responsive" src="/theme_jetee/static/src/images/hsbc.jpg"></img>
+                </div>
+                <div class="mask">
+                  <div class="main">
+                    <h5>Project Name</h5>
+                  </div>
+                   <div class="project-info">
+                    <div class="row">
+                      <div class="col-xs-6">
+                        <ul class="list-unstyled">
+                         
+                          <li><i class="fa fa-building"></i>Project Type</li>
+                          <li><i class="fa fa-calendar"></i>Project Year</li>
+                        </ul>
+                      </div>
+                      <div class="col-xs-6">
+                        <ul class="list-unstyled">
+                          <li><i class="fa fa-male"></i> Client</li>
+                          <li><i class="fa fa-home"></i> Country</li>
+                          
+                        </ul>
+                      </div>
+                    </div>
+                    <a class="btn btn-primary " href="/page/project3">READ MORE</a>
+                  </div>
+                </div>
+             </div>
+             </div>
+           
+            
+              </div>
+           
+            </div>
+      </div>
+    
+
+                </section>
+</div>
+            </xpath>
+            
+            
+            
+             <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title">Slider</span>
+                    </div>
+
+             <section class="snippet_carousel oe_snippet_body" style="height: 480px; overflow: hidden;">
+       <div class="main-slide carousel slide" data-ride="carousel" id="myCarousel" style="height: 480px;">
+          <ol class="carousel-indicators">
+            <li class="active"  data-target="#myCarousel"></li>
+            <li class=""  data-target="#myCarousel"></li>
+            <li class=""  data-target="#myCarousel"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item active">
+            <div class="image"><img src="/theme_jetee/static/src/images/slider1.jpg"/></div>
+              <div class="slider-content">
+                <div class="row content">
+                  <div class="col-md-12 text-center">
+                    <h2 class="animated7 white">
+                      <span>Welcome to <strong>Margo</strong></span>
+                    </h2>
+                    <h3 class="animated8 white">
+                      <span>The ultimate aim of your business</span>
+                    </h3>
+                    <div>
+                      <a class="animated4 slider btn btn-primary btn-large btn-min-block" href="#">Get Now</a>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+            <div class="image"><img src="/theme_jetee/static/src/images/slider2.jpg"/></div>
+              <div class="slider-content">
+                <div class="row content">
+                  <div class="col-md-12 text-center">
+                    <h2 class="animated2 white">
+                      <span>The way of <strong>Success</strong></span>
+                    </h2>
+                    <h3 class="animated3 white">
+                      <span>Why you are waiting</span>
+                    </h3>
+                    <p class="animated4">
+                      <a class="slider btn btn-primary btn-large" href="#">Check Now</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+            <div class="image"><img src="/theme_jetee/static/src/images/slider2.jpg"/></div>
+              <div class="slider-content">
+                <div class="row content">
+                  <div class="col-md-12 text-center">
+                    <h2 class="animated4 white">
+                      <span><strong>Margo</strong> for the highest</span>
+                    </h2>
+                    <h3 class="animated5 white">
+                      <span>The Key of your Success</span>
+                    </h3>
+                    <p class="animated6">
+                      <a class="slider btn btn-primary btn-large" href="#">Buy Now</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="left carousel-control" data-slide="prev" data-target="#myCarousel" href="#myCarousel">
+            <span>
+              <i class="fa fa-angle-left"></i>
+            </span>
+          </a>
+          <a class="right carousel-control" data-slide="next" data-target="#myCarousel" href="#myCarousel">
+            <span>
+              <i class="fa fa-angle-right"></i>
+            </span>
+          </a>
+        </div>
+        
+      </section>
+
+                </div>
+
+            </xpath>
+            
+            
+            
+                 <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title">6 Items Thumbnail Slider  </span>
+                    </div>
+
+                    <section class="oe_snippet_body  small-carousel-slider">
+                        <div class="container">
+                            <div class="big-title text-center">
+                <h1>Our Happy <strong>Clients</strong></h1>
+                <p class="title-desc">Partners We Work With</p>
+              </div>
+                        </div>
+                        <div class="carousel slide" id="carousel-small">
+                            <div class="container">
+                                <div class="row ">
+                                    <div class="carousel-inner ">
+
+                                        <ul class="item active">
+                                            <li class="col-md-4 text-center">
+                                                <a  class="btn" href="#">
+                                                    <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height:100px"/>
+                                                </a>
+                                            </li>
+                                            <li class="col-md-4 text-center">
+                                                <a  class="btn" href="#">
+                                                    <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height:100px"/>
+                                                </a>
+                                            </li>
+                                            <li class="col-md-4 text-center">
+                                                <a  class="btn" href="#">
+                                                    <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height:100px"/>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="item">
+                                            <li class="col-md-4 text-center">
+                                                <a  class="btn" href="#">
+                                                    <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height:100px;"/>
+                                                </a>
+                                            </li>
+                                            <li class="col-md-4 text-center">
+                                                <a  class="btn" href="#">
+                                                    <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none; max-height: 100px"/>
+                                                </a>
+                                            </li>
+                                            <li class="col-md-4 text-center">
+                                                <a  class="btn" href="#">
+                                                    <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height: 100px;"/>
+                                                </a>
+                                            </li>
+                                        </ul>
+                              
+                                    </div>
+                                </div>
+                                            <div  class="more-link text-center" style="margin:25px 0;">
+           <a class="btn btn-primary " href="/page/clients">See More  </a>
+
+         </div>
+                            </div>
+<div class="control-container">
+                            <div class="carousel-control left " data-slide="prev" data-target="#carousel-small" href="#carousel-small" style="width: 10%">
+                                <i class="fa fa-angle-left"/>
+                            </div>
+                            <div class="carousel-control right" data-slide="next" data-target="#carousel-small" href="#carousel-small" style="width: 10%">
+                                <i class="fa fa-angle-right"/>
+                            </div>
+                        </div>
+                        </div>
+             
+                    </section>    
+                </div>
+            </xpath>
+                        <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title">Highlighted Message</span>
+                    </div>
+
+                    <section class="oe_snippet_body colored-highlighted-message grey-bg">
+                        <div class="container">
+                            
+
+                                <div class="text-left ">
+                                    <div class="block-title ">
+                                        Message Title 
+                                    </div>
+                                    <div class="text-left">
+                                        <div class="block-subtitle">
+                                            Message Sub Title
+                                        </div>
+                                        <div class="text-right">
+                                            <a class="btn btn-primary btn-lg" href="/page/website.contactus">Contact us </a>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+            
+            
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title">Project Slider and Project Info  </span>
+                    </div>
+
+              <section class="oe_snippet_body  project-slider-info">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 col-sx-6">
+                  <div class="carousel project-slide" data-ride="carousel" id="carousel-project" style="height: 488px; overflow: hidden;">
+                    <ol class="carousel-indicators">
+                      <li class="" data-slide-to="0" data-target="carousel-project"></li>
+                      <li data-slide-to="1" data-target="carousel-project" class=""></li>
+                      <li data-slide-to="2" data-target="carousel-project" class="active"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                 
+                      <div class="item active">
+                        <img alt="First slide" src="/theme_jetee/static/src/images/project-royel.jpg" style=""></img>
+                      </div>
+                      <div class="item ">
+                        <img alt="Third slide" src="/theme_jetee/static/src/images/marriott.jpg" style="transition: none 0s ease 0s ;"></img>
+                      </div>
+                      <div class="item ">
+                        <img alt="Third slide" src="/theme_jetee/static/src/images/project-royel.jpg" style="transition: none 0s ease 0s ;"></img>
+                      </div>
+                      
+                    </div>
+                    <div class="control-container">
+                    <a class="left carousel-control" data-slide="prev" href="carousel-project">
+                      <span class="fa fa-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" data-slide="next" href="carousel-project">
+                      <span class="fa fa-chevron-right"> </span>
+                    </a>
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                 <div class=" project-info-page">
+         
+                <h2 class="mt50 project-title">Project Title</h2>
+                <p class="mt50 body">project Description</p>
+                <div class="mt50 control-label">Project Area:</div>
+                <p class=" body">Project Area</p>
+                 <div class="mt50 control-label">Project Type:</div>
+                <p class=" body">Project Type</p>
+                 <div class="mt50 control-label">Project Year:</div>
+                <p class=" body">Project Year</p>
+                 <div class="mt50 control-label">Client:</div>
+                <p class=" body">Client</p>
+                <div class="mt50 control-label">Country:</div>
+                <p class=" body">Country</p>
+                </div>
+              </div>
+              </div>
+              </div>
+              </section>
+            </div>
+            </xpath>
+                        <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title">Project info</span>
+                    </div>
+
+                    <section class="oe_snippet_body">
+                      
+          
+          <div class="container project-info-page">
+            <div class="row">
+              <div class="col-md-8 mt50">
+                <h2 class="mt50 project-title">Project Title</h2>
+                <p class="mt50 body">project Description</p>
+                <div class="row">
+                        <div class="col-xs-6">
+                          <ul class="list-unstyled">
+                            <li><i class="fa fa-area-chart"></i>Project Area</li>
+                            <li><i class="fa fa-building"></i>Project Type</li>
+                            <li><i class="fa fa-calendar"></i>Project Year</li>
+                          </ul>
+                        </div>
+                        <div class="col-xs-6">
+                          <ul class="list-unstyled">
+                            <li><i class="fa fa-male"></i> Client</li>
+                            <li><i class="fa fa-home"></i> Country</li>
+                          </ul>
+                        </div>
+                      </div>
+              </div>
+ </div>
+ </div>
+           
+        </section>
+            </div>
+            </xpath>
+           
+             <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title">Highlighted Intro</span>
+                    </div>
+
+                    <section class="oe_snippet_body colored-highlighted-message grey-bg">
+                        <div class="container">
+                            
+
+                                <div class="text-left ">
+                                  
+                                    <div class="text-left">
+                                        <div class="block-subtitle">
+                                            Message Sub Title
+                                        </div>
+                                        
+
+                                    </div>
+                                </div>
+                            
+                        </div>
+                    </section>
+                </div>
+            </xpath>
+            <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title">What we do Featured block</span>
+                    </div>
+
+                    <section class="oe_snippet_body ">
+                        <div class="container">
+            
+            <div  class="block-views-services-block" style="padding-top: 60px; padding-bottom: 80px;">
+  
+                    <h3 class="block-title"><span class="title">What We Do</span></h3>
+            <div class="content row">
+       
+    
+    <div class="row co-md-12 col-xs-12">
+    <div class="col-md-4">
+
+	<div class="image">
+		
+		<img typeof="foaf:Image" src="http://demo.cmssuperheroes.com/Drupal/construction/sites/default/files/styles/service_thumbnail/public/slider04.jpg?itok=MawaPv6L" width="600" height="300" alt=""></img>	</div>
+	<h3 class="title">
+	Fire Alarm Systems</h3>
+
+	
+          <div class="description">
+           Including the latest Analogue Addressable and conventional Fire Alarm Systems.
+          
+</div>
+      </div>
+        <div class="col-md-4">
+
+	<div class="image">
+		
+		<img typeof="foaf:Image" src="http://demo.cmssuperheroes.com/Drupal/construction/sites/default/files/styles/service_thumbnail/public/slider04.jpg?itok=MawaPv6L" width="600" height="300" alt=""></img>	</div>
+	<h3 class="title">
+	Security Systems</h3>
+Including a wide range of products such as Intrusion Systems, Bullet proof doors and other special purpose security products.
+	
+          <div class="description">
+          
+</div>
+      </div>
+        <div class="col-md-4">
+
+	<div class="image">
+		
+		<img typeof="foaf:Image" src="http://demo.cmssuperheroes.com/Drupal/construction/sites/default/files/styles/service_thumbnail/public/slider04.jpg?itok=MawaPv6L" width="600" height="300" alt=""></img>	</div>
+	<h3 class="title">
+	CCTV and Access Control</h3>
+
+          <div class="description">
+          Including Analogue and IP Solutions with integrated Access Control and Platforms.
+      </div>
+
+   
+</div>
+
+</div>    
+</div>
+<div class="text-center link-container" style="margin-bottom:25px;">
+          <a class="btn btn-primary" href="/page/services">More </a>
+</div>
+</div>
+
+
+</div>
+</section>
+            
+      </div>
+      </xpath>
+      
+              <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title">Project Page</span>
+                    </div>
+
+                    <section class="oe_snippet_body project-page">
+      
+      <div id="section-pagetitle" class="section section-pagetitle" style="background-color:#f8f9f9;">	
+      <div class="container">
+     <h2 class="page_title">Project Title</h2>    
+     </div>
+</div>
+<div  class="portfolio-detail clearfix container" >
+<div class="row">
+	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 clearfix">
+		<div class="portfolio-description">
+         <h2 class="title">Project Description</h2>
+	<ul>
+  <li>
+      <div class="field-label">Client:</div>
+    
+      <div class="field-item">Awesome Company</div>
+     
+</li>
+<li>
+      <div class="field-label">Location:</div>
+  
+      <div class="field-item">Amman ,Jordan</div>
+   
+</li>
+<li>
+      <div class="field-label">Surface Area:</div>
+    
+       <div class="field-item ">450,000 m2</div>
+
+</li>
+<li>
+      <div class="field-label">Year Compeleted:</div>
+
+          <div class="field-item even">2014</div>
+   
+</li>
+
+
+</ul>
+<div class="field field-body">
+The Langham Hotel located in Mountain View is one of the most CA’s largest hotel with over 450,000 square feet of new construction.Complete interior renovation included removing walls, new restrooms, paint, wall coverings, tile and carpeting.
+</div>
+      </div>
+
+
+			
+<h2 class="title">The Challenges</h2>
+<div class="field-portfolio-challenges field-type-text-with-summary field-label-hidden">
+   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin suscipit convallis facilisis. Fusce lectus ex, pretium efficitur suscipit sed, faucibus vel elit. Sed eu vestibulum leo. Phasellus at quam id elit hendrerit semper feugiat id nunc. Duis semper lacus scelerisque, aliquam leo quis, porttitor leo.</p>
+<p>Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Etiam lobortis dapibus libero vel porttitor. Nulla tempor elit nec feugiat tempus.Phasellus at quam id elit hendrerit semper feugiat id nunc. Morbi quis justo velit. Duis semper lacus scelerisque, aliquam leo quis, porttitor leo. Fusce lectus ex, pretium efficitur suscipit sed, faucibus vel elit</p>
+</div>
+
+	</div>
+	<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 clearfix">
+	<div class="layout-col2 field field-name-superhero-portfolio-image field-type-image field-label-hidden">
+	<div class="big-image">
+	<img class="first" src="/theme_jetee/static/src/images/project-royel.jpg" alt="" title=""> </img>
+	<img class="second" src="/theme_jetee/static/src/images/marriott.jpg" alt="" title=""> </img>
+	</div>
+	
+		
+	</div>
+</div> 
+</div>
+</div>     
+ 
+</section>
+</div>
+</xpath>
+            
+           <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title">Services Page</span>
+                    </div>
+
+                    <section class="oe_snippet_body ">
+      
+      <div  class="section section-services" >	 
+          <div class="container" >
+    <div class="row our-services">
+
+
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="block">
+            <span><i class="fa fa fa-bell"></i></span>
+            <h4>Fire Alarm Systems</h4>
+            <p>Including the latest Analogue Addressable and conventional Fire Alarm Systems.</p>
+            </div>
+
+        </div>
+
+
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="block">
+            <span><i class="fa fa-fire"></i></span>
+            <h4>Fire Fighting Systems</h4>
+            <p> Including Sprinkler Systems, Hydrants, Landing valves, Fire Hose Reels and Extinguishers.</p>
+            </div>
+        </div>
+
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+<div class="block">
+            <span><i class="fa fa-fire-extinguisher"></i></span>
+            <h4> Fire Suppressions</h4>
+
+            <p>Including FM200 Systems, CO2, Inergen, Novec, and Kitchen hood Wet Chemical Systems.</p>
+        </div>
+        </div>
+
+
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+<div class="block">
+            <span><i class="fa fa-lock"></i></span>
+            <h4>Security Systems </h4>
+            <p>Including a wide range of products such as Intrusion Systems, Bullet proof doors and other special purpose security products.
+            </p>
+        </div>
+        </div>
+
+
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+<div class="block">
+            <span><i class="fa fa-film"></i></span>
+            <h4> CCTV and Access Control</h4>
+            <p>Including Analogue and IP Solutions with integrated Access Control and Platforms.</p>
+</div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+<div class="block">
+            <span><i class="fa fa-globe"></i></span>
+            <h4>Public Address</h4>
+            <p> Including full capability to meet demand through Speakers, Line array speakers, Mixers and Amplifiers with the latest technology and the ability to be connected over networks.</p>
+        </div>
+        </div>
+  
+
+        <div class="col-sm-6 col-md-4 col-lg-4">
+<div class="block">
+            <span><i class="fa fa-clock-o"></i></span>
+            <h4>Time and Attendance</h4>
+
+</div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="block">
+            <span><i class="fa fa-lightbulb-o"></i></span>
+            <h4>Lighting and Surge Protection</h4>
+            <p>Including reliable systems that work either on badge or fingerprint systems, with many additional options such as connectivity and high storage features.
+            </p>
+            </div>
+            
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="block">
+            <span><i class="fa fa-video-camera"></i></span>
+            <h4>Audio and Video Intercom Systems</h4>
+            <p>Including different solutions from Tower Buildings to Villas and small apartments.</p>
+            </div>
+            </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="block">
+            <span><i class="fa fa-phone "></i></span>
+            <h4>Nurse Call Systems.</h4>
+            <p>Description</p>
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="block">
+            <span><i class="fa fa-bars"></i></span>
+            <h4>Automatic Gate System</h4>
+            <p>Description</p>
+            </div>
+            
+        </div>
+       
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="block">
+            <span><i class="fa fa-car"></i></span>
+            <h4>Fire Fighting Vehicles and Rescue Equipments</h4>
+            <p>Desc</p>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="block">
+            <span><i class="fa fa-building"></i></span>
+            <h4>Facility Management Systems.</h4>
+            <p>Desc</p>
+        </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4">
+            <div class="block">
+            <span><i class="fa fa-wifi "></i></span>
+            <h4>Telecommunication and Networking Systems..</h4>
+            <p>Desc</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+        
+
+          
+          
+       </div>
+   </section>
+   </div>
+   </xpath>         
+            
+                <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title">Project Page 2</span>
+                    </div>
+
+                    <section class="oe_snippet_body ">
+  
+<section class="single-page-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+					<div class="image">
+						<img src="/theme_jetee/static/src/images/project-royel.jpg" alt=""></img>
+						</div>
+					</div>
+			<div class="col-md-5">
+						<div class="project-content">
+							<div class="project-content-box">
+								<h2>Project Title Here</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-5">
+						<div class="project-content">
+							<div class="project-content-box">
+								<h2>Project Details</h2>
+								<ul>
+									<li><i class="fa fa-calendar"></i> <span>Date:</span> 20.12.2014</li>
+									<li><i class="fa fa-map-marker"></i> <span>Location:</span> Jordan, Amman</li>
+									<li><i class="fa fa-usd"></i> <span>Value:</span> $00000</li>
+									<li><i class="fa fa-tag"></i> <span>Category:</span> Building, House, Projects</li>
+									<li><i class="fa fa-user"></i> <span>Client:</span> Client Name</li>
+								</ul>
+							</div>
+							<div class="project-content-box">
+								<h2>Project Planning</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+								cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+								proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7">
+					<div class="image">
+						<img src="/theme_jetee/static/src/images/project-royel.jpg" alt=""></img>	
+						</div>				
+					</div>
+				</div>
+				
+			</div>
+		</section>  
+		</section>
+		</div>
+		</xpath>   
+              <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title">Partners Page</span>
+                    </div>
+
+                    <section class="oe_snippet_body ">
+                    
+<div class="partners-page">
+    <div id="section-pagetitle" class="section section-pagetitle" style="background-color:#f8f9f9;">	
+      <div class="container">
+     <h2 class="page_title">Our Partners </h2>    
+     </div>
+</div>
+        <div class="container partners-container">
+      
+           <div class="row">
+            <div class="col-md-4 ">
+              <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height:100px"/>
+                  
+            </div>
+            <div class="col-md-4">
+              <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height:100px"></img>
+            </div>
+            <div class="col-md-4">
+              <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height:100px"></img>
+            </div>
+          </div>
+       </div>
+       
+            <div class="container partners-container">
+      
+           <div class="row">
+            <div class="col-md-4 ">
+              <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height:100px"/>
+                  
+            </div>
+            <div class="col-md-4">
+              <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height:100px"></img>
+            </div>
+            <div class="col-md-4">
+              <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height:100px"></img>
+            </div>
+          </div>
+       </div>
+          <div class="container partners-container">
+      
+           <div class="row">
+            <div class="col-md-4 ">
+              <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height:100px"/>
+                  
+            </div>
+            <div class="col-md-4">
+              <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height:100px"></img>
+            </div>
+            <div class="col-md-4">
+              <img class="img-responsive center-block" src="/theme_jetee/static/src/images/c3.png" style="-webkit-animation-play-state: paused; -webkit-transition: none; transition: none;max-height:100px"></img>
+            </div>
+          </div>
+       </div>
+        </div>
+        
+      </section>
+      </div>
+      </xpath>
+                <xpath expr="//div[@id='snippet_structure']" position="inside">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img class="oe_snippet_thumbnail_img" src="/theme_jetee/static/src/images/title_small.png"/>
+                        <span class="oe_snippet_thumbnail_title">Page Title</span>
+                    </div>
+
+                    <section class="oe_snippet_body ">
+                    
+
+    <div id="section-pagetitle" class="section section-pagetitle" style="background-color:#f8f9f9;">	
+      <div class="container">
+     <h2 class="page_title">Page Title </h2>    
+     </div>
+     </div>
+     </section>
+     </div>
+     </xpath>
+      
+      
+       
+            
+
+    </template>
+</data>
+</openerp>

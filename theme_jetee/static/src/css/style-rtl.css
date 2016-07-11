@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'KhmerUI';
+    src:  url('../fonts/KhmerUI.ttf')  format('truetype'), 
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+body.rtl{
+  
+    font-family:'DIN Next LT W23 Light';
+}
+.rtl .navbar-brand.logo{
+float:right;}
+.rtl .carousel {
+ 
+    direction: ltr;
+    }
+     .rtl .main-slide .carousel-indicators{
+    right:0;
+    left:20%;
+    }

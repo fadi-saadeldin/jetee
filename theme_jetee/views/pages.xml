@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+<data>
+
+<!-- === Services Page === -->
+<template name="page solutions " id="website.solutions" page="True">
+  <t t-call="website.layout">
+   <div id="wrap">
+   
+       <!-- === Snippets' area === -->
+       <div class="oe_structure" />
+     </div>
+   
+  </t>
+</template>
+<template name="page support " id="website.support" page="True">
+  <t t-call="website.layout">
+   <div id="wrap">
+   
+       <!-- === Snippets' area === -->
+       <div class="oe_structure" />
+     </div>
+   
+  </t>
+</template>
+<template name="page tutorials  " id="website.tutorials" page="True">
+  <t t-call="website.layout">
+   <div id="wrap">
+   
+       <!-- === Snippets' area === -->
+       <div class="oe_structure" />
+     </div>
+   
+  </t>
+</template>
+<record id="solutions_page_link" model="website.menu">
+  <field name="name">Solutions</field>
+  <field name="url">/page/solutions</field>
+  <field name="parent_id" ref="website.main_menu" />
+  <field name="sequence" type="int">2</field>
+</record>
+<record id="support_page_link" model="website.menu">
+  <field name="name">Support</field>
+  <field name="url">/page/support</field>
+  <field name="parent_id" ref="website.main_menu" />
+  <field name="sequence" type="int">3</field>
+</record>
+<record id="tutorials_page_link" model="website.menu">
+  <field name="name">Tutorials</field>
+  <field name="url">/page/tutorials</field>
+  <field name="parent_id" ref="website.main_menu" />
+  <field name="sequence" type="int">4</field>
+</record>
+</data>
+</openerp>
